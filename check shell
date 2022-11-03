@@ -1,0 +1,2 @@
+> cat /etc/shells         ## shell available
+> readlink /proc/$$/exe   ## shell in use

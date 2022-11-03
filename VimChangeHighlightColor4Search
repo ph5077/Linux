@@ -1,0 +1,4 @@
+Vim: How to change the highlight color for search hits
+in vimrc
+highlight Search guibg=DarkGray
+## prev bg=Red replaced with DarkGray

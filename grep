@@ -1,0 +1,3 @@
+# search "main" in files matched *.py, *.pl, *.sh
+grep --color -ri  --include=\*.{py,pl,sh} "main" ~/path
+grep --color -ri --include="*.py" --include="*.sh" --include="*.pl" "main" ~/path

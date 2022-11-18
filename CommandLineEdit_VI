@@ -1,0 +1,5 @@
+# in bash
+> set -o vi
+
+# in tcsh
+> bindkey -v

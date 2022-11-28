@@ -1,0 +1,17 @@
+.cshrc：Command must be run for each shell that starts up
+.login: Commands to be run only at login
+
+Examples of .login
+
+  1. Terminal settings, like tset, reset, and stty.
+  2. set environment variables. 
+    (Non-login shells inherit environment variables from the login shell
+    to set those variables only once, using .login, not .cshrc.)
+  3. Commands like biff, which controls the announcement of new mail, or mesg
+    which determines whether other users can write to your terminal.
+  4. Commands show info at login time 
+      uptime：to find out how busy the system
+      msgs –q：to see if there are new system messages
+      who：to see who else is logged in
+      date：to display the current date and time.
+      

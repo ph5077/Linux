@@ -1,0 +1,12 @@
+Some shell variables have a corresponding environment variable.
+Setting one member of the pair implicitly sets the other. 
+
+For instance, you can use either of the following commands to specify your terminal type:
+
+set term = vt100                This also sets the TERM environment variable
+setenv TERM vt100               This also sets the term shell variable
+
+path and PATH are another such pair, although their values are specified using different formats:
+
+set path = (˜/bin /usr/bin /bin /usr/ucb)
+setenv PATH /usr/staff/dubois/bin:/usr/bin:/bin:/usr/ucb
